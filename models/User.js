@@ -4,7 +4,7 @@ mongoose.Schema.Types.String.set('trim', true)
 
 
 const userSchema = new Schema({
-        _id: mongosee.Schema.Types.ObjectId,
+        _id: mongoose.Schema.Types.ObjectId,
         firstName: {
             type: String,
             trim: true,
